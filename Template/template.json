@@ -41,11 +41,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Adguard/Workdir",
+          "bind": "/DATA/AppData/Adguard/Workdir",
           "container": "/opt/adguardhome/work"
         },
         {
-          "bind": "/portainer/Files/AppData/Adguard/Conf",
+          "bind": "/DATA/AppData/Adguard/Conf",
           "container": "/opt/adguardhome/conf"
         }
       ]
@@ -85,23 +85,23 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Music",
+          "bind": "/DATA/Music",
           "container": "/music"
         },
         {
-          "bind": "/portainer/Files/AppData/Airsonic/Playlists",
+          "bind": "/DATA/AppData/Airsonic/Playlists",
           "container": "/playlists"
         },
         {
-          "bind": "/portainer/Podcasts",
+          "bind": "/DATA/Podcasts",
           "container": "/podcasts"
         },
         {
-          "bind": "/portainer/Files/AppData/Airsonic/Media",
+          "bind": "/DATA/AppData/Airsonic/Media",
           "container": "/media"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Airsonic/",
+          "bind": "/DATA/AppData/Config/Airsonic/",
           "container": "/config"
         }
       ]
@@ -137,7 +137,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Authelia",
+          "bind": "/DATA/AppData/Config/Authelia",
           "container": "/etc/authelia/"
         }
       ]
@@ -171,15 +171,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Bazarr",
+          "bind": "/DATA/AppData/Config/Bazarr",
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/DATA/TV",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/DATA/Movies",
           "container": "/movies"
         }
       ]
@@ -209,15 +209,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Beets",
+          "bind": "/DATA/AppData/Config/Beets",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Music",
+          "bind": "/DATA/Music",
           "container": "/music"
         }
       ]
@@ -236,7 +236,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Vaultwarden",
+          "bind": "/DATA/AppData/Config/Vaultwarden",
           "container": "/config"
         }
       ]
@@ -271,15 +271,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Books",
+          "bind": "/DATA/Books",
           "container": "/books"
         },
         {
-          "bind": "/portainer/Files/Podcasts",
+          "bind": "/DATA/Podcasts",
           "container": "/podcast"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Booksonic",
+          "bind": "/DATA/AppData/Config/Booksonic",
           "container": "/config"
         }
       ]
@@ -349,7 +349,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/trilium-data",
+          "bind": "/DATA/AppData/Config/trilium-data",
           "container": "/home/node/trilium-data"
         }
       ]
@@ -379,11 +379,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Books",
+          "bind": "/DATA/Books",
           "container": "/books"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Cops",
+          "bind": "/DATA/AppData/Config/Cops",
           "container": "/config"
         }
       ]
@@ -413,11 +413,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Books",
+          "bind": "/DATA/Books",
           "container": "/books"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/kavita",
+          "bind": "/DATA/AppData/Config/kavita",
           "container": "/config"
         }
       ]
@@ -448,11 +448,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Books",
+          "bind": "/DATA/Books",
           "container": "/books"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Calibre-web",
+          "bind": "/DATA/AppData/Config/Calibre-web",
           "container": "/config"
         }
       ]
@@ -524,7 +524,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Chowdown",
+          "bind": "/DATA/AppData/Config/Chowdown",
           "container": "/config"
         }
       ]
@@ -542,7 +542,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Tandoor",
+          "bind": "/DATA/AppData/Config/Tandoor",
           "container": "/config"
         }
       ]
@@ -589,7 +589,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Code-Server",
+          "bind": "/DATA/AppData/Config/Code-Server",
           "container": "/config"
         }
       ]
@@ -619,7 +619,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Codiad",
+          "bind": "/DATA/AppData/Config/Codiad",
           "container": "/config"
         }
       ]
@@ -649,15 +649,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Couchpotato",
+          "bind": "/DATA/AppData/Config/Couchpotato",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/DATA/Movies",
           "container": "/movies"
         }
       ]
@@ -686,11 +686,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Daapd",
+          "bind": "/DATA/AppData/Config/Daapd",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Music",
+          "bind": "/DATA/Music",
           "container": "/music"
         }
       ]
@@ -708,7 +708,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Dashmachine",
+          "bind": "/DATA/AppData/Config/Dashmachine",
           "container": "/dashmachine/dashmachine/user_data"
         }
       ]
@@ -739,11 +739,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Davos",
+          "bind": "/DATA/AppData/Config/Davos",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         }
       ]
@@ -762,11 +762,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/DeeMix",
+          "bind": "/DATA/AppData/Config/DeeMix",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         }
       ]
@@ -800,11 +800,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Deluge",
+          "bind": "/DATA/AppData/Config/Deluge",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         }
       ]
@@ -834,7 +834,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Domoticz",
+          "bind": "/DATA/AppData/Config/Domoticz",
           "container": "/config"
         }
       ]
@@ -898,7 +898,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Duplicati",
+          "bind": "/DATA/AppData/Config/Duplicati",
           "container": "/config"
         },
         {
@@ -941,15 +941,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Emby",
+          "bind": "/DATA/AppData/Config/Emby",
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/DATA/TV",
           "container": "/data/tvshows"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/DATA/Movies",
           "container": "/data/movies"
         }
       ]
@@ -968,7 +968,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/EmbyStat",
+          "bind": "/DATA/AppData/Config/EmbyStat",
           "container": "/config"
         }
       ]
@@ -987,11 +987,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/FileBrowser",
+          "bind": "/DATA/AppData/Config/FileBrowser",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/AppData/Config",
+          "bind": "/DATA/AppData/Config",
           "container": "/myfiles"
         }
       ]
@@ -1021,7 +1021,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/freshrss",
+          "bind": "/DATA/AppData/Config/freshrss",
           "container": "/config"
         }
       ]
@@ -1050,15 +1050,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Gazee",
+          "bind": "/DATA/AppData/Config/Gazee",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Comics",
+          "bind": "/DATA/Comics",
           "container": "/comics"
         },
         {
-          "bind": "/portainer/Files/AppData/Gazee",
+          "bind": "/DATA/AppData/Gazee",
           "container": "/mylar"
         }
       ]
@@ -1077,7 +1077,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Guacamole",
+          "bind": "/DATA/AppData/Config/Guacamole",
           "container": "/config"
         }
       ]
@@ -1111,7 +1111,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Grocy",
+          "bind": "/DATA/AppData/Config/Grocy",
           "container": "/config"
         }
       ]
@@ -1141,7 +1141,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/HTPCmanager",
+          "bind": "/DATA/AppData/Config/HTPCmanager",
           "container": "/config"
         }
       ]
@@ -1171,15 +1171,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Headphones",
+          "bind": "/DATA/AppData/Config/Headphones",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/Downloads"
         },
         {
-          "bind": "/portainer/Music",
+          "bind": "/DATA/Music",
           "container": "/music"
         }
       ]
@@ -1209,7 +1209,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Heimdall",
+          "bind": "/DATA/AppData/Config/Heimdall",
           "container": "/config"
         }
       ]
@@ -1228,11 +1228,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Homer/assets",
+          "bind": "/DATA/AppData/Config/Homer/assets",
           "container": "/www/assets"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Homer",
+          "bind": "/DATA/AppData/Config/Homer",
           "container": "/www/config.yml"
         }
       ]
@@ -1395,7 +1395,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/flame-dashboard",
+          "bind": "/DATA/AppData/Config/flame-dashboard",
           "container": "/app/data"
         }
       ]
@@ -1413,7 +1413,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/huginn",
+          "bind": "/DATA/AppData/Config/huginn",
           "container": "/var/lib/mysql"
         }
       ]
@@ -1443,7 +1443,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/eufy-security-ws",
+          "bind": "/DATA/AppData/Config/eufy-security-ws",
           "container": "/data"
         }
       ]
@@ -1514,11 +1514,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Jackett",
+          "bind": "/DATA/AppData/Config/Jackett",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         }
       ]
@@ -1552,15 +1552,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Jellyfin",
+          "bind": "/DATA/AppData/Config/Jellyfin",
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/DATA/TV",
           "container": "/data/tvshows"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/DATA/Movies",
           "container": "/data/movies"
         }
       ]
@@ -1590,7 +1590,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Kodi",
+          "bind": "/DATA/AppData/Config/Kodi",
           "container": "/config"
         }
       ]
@@ -1725,7 +1725,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/LetsEncrypt",
+          "bind": "/DATA/AppData/Config/LetsEncrypt",
           "container": "/config"
         }
       ]
@@ -1743,7 +1743,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/LibreSpeed",
+          "bind": "/DATA/AppData/Config/LibreSpeed",
           "container": "/config"
         }
       ]
@@ -1773,15 +1773,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Lidarr",
+          "bind": "/DATA/AppData/Config/Lidarr",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Music",
+          "bind": "/DATA/Music",
           "container": "/music"
         }
       ]
@@ -1811,11 +1811,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Lychee",
+          "bind": "/DATA/AppData/Config/Lychee",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Pictures",
+          "bind": "/DATA/Pictures",
           "container": "/pictures"
         }
       ]
@@ -1850,7 +1850,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Mariadb",
+          "bind": "/DATA/AppData/Config/Mariadb",
           "container": "/config"
         }
       ]
@@ -1909,15 +1909,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Medusa",
+          "bind": "/DATA/AppData/Config/Medusa",
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/DATA/TV",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         }
       ]
@@ -1977,7 +1977,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/pi.alert",
+          "bind": "/DATA/AppData/Config/pi.alert",
           "container": "/config"
         }
       ]
@@ -2019,11 +2019,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Mstream",
+          "bind": "/DATA/AppData/Config/Mstream",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/music"
         }
       ]
@@ -2061,15 +2061,15 @@
           "container": "/etc/localtime"
         },
         {
-          "bind": "/portainer/Files/Config/Murmur",
+          "bind": "/DATA/Config/Murmur",
           "container": "/opt/murmur/config"
         },
         {
-          "bind": "/portainer/Files/Murmur/data",
+          "bind": "/DATA/Murmur/data",
           "container": "/opt/murmur/data"
         },
         {
-          "bind": "/portainer/Files/Murmur/log",
+          "bind": "/DATA/Murmur/log",
           "container": "/opt/murmur/log"
         }
       ]
@@ -2104,11 +2104,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/MusicBrainz",
+          "bind": "/DATA/AppData/Config/MusicBrainz",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/AppData/MusicBrainz",
+          "bind": "/DATA/AppData/MusicBrainz",
           "container": "/data"
         }
       ]
@@ -2138,7 +2138,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Muximux",
+          "bind": "/DATA/AppData/Config/Muximux",
           "container": "/config"
         }
       ]
@@ -2168,15 +2168,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Mylar",
+          "bind": "/DATA/AppData/Config/Mylar",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Comics",
+          "bind": "/DATA/Comics",
           "container": "/comics"
         }
       ]
@@ -2206,11 +2206,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Nzbget",
+          "bind": "/DATA/AppData/Config/Nzbget",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         }
       ]
@@ -2240,11 +2240,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Nzbhydra2",
+          "bind": "/DATA/AppData/Config/Nzbhydra2",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         }
       ]
@@ -2316,7 +2316,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Nginx",
+          "bind": "/DATA/AppData/Config/Nginx",
           "container": "/config"
         }
       ]
@@ -2362,7 +2362,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/OScam",
+          "bind": "/DATA/AppData/Config/OScam",
           "container": "/config"
         }
       ]
@@ -2392,7 +2392,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Ombi",
+          "bind": "/DATA/AppData/Config/Ombi",
           "container": "/config"
         }
       ]
@@ -2427,7 +2427,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/OpenVPN-AS",
+          "bind": "/DATA/AppData/Config/OpenVPN-AS",
           "container": "/config"
         }
       ]
@@ -2457,7 +2457,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Organizr",
+          "bind": "/DATA/AppData/Config/Organizr",
           "container": "/config"
         }
       ]
@@ -2487,7 +2487,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Overseerr",
+          "bind": "/DATA/AppData/Config/Overseerr",
           "container": "/config"
         }
       ]
@@ -2600,15 +2600,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Pictures",
+          "bind": "/DATA/Pictures",
           "container": "/Pictures"
         },
         {
-          "bind": "/portainer/Files/AppData/Photoshow/Thumbs",
+          "bind": "/DATA/AppData/Photoshow/Thumbs",
           "container": "/Thumbs"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/PhotoShow",
+          "bind": "/DATA/AppData/Config/PhotoShow",
           "container": "/config"
         }
       ]
@@ -2633,11 +2633,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/PiHole",
+          "bind": "/DATA/AppData/Config/PiHole",
           "container": "/etc/pihole"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/PiHole/DNS",
+          "bind": "/DATA/AppData/Config/PiHole/DNS",
           "container": "/etc/dnsmasq.d"
         }
       ]
@@ -2667,7 +2667,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/PiWigo",
+          "bind": "/DATA/AppData/Config/PiWigo",
           "container": "/config"
         }
       ]
@@ -2702,15 +2702,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Plex",
+          "bind": "/DATA/AppData/Config/Plex",
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/DATA/TV",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/DATA/Movies",
           "container": "/movies"
         }
       ]
@@ -2745,7 +2745,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/PlexRequests",
+          "bind": "/DATA/AppData/Config/PlexRequests",
           "container": "/config"
         }
       ]
@@ -2775,11 +2775,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/ProjectSend",
+          "bind": "/DATA/AppData/ProjectSend",
           "container": "/data"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/ProjectSend",
+          "bind": "/DATA/AppData/Config/ProjectSend",
           "container": "/config"
         }
       ]
@@ -2798,7 +2798,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/ProtonMail-Bridge",
+          "bind": "/DATA/AppData/ProtonMail-Bridge",
           "container": "/root"
         }
       ]
@@ -2828,7 +2828,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Prowlarr",
+          "bind": "/DATA/AppData/Config/Prowlarr",
           "container": "/config"
         }
       ]
@@ -2858,11 +2858,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Pydio",
+          "bind": "/DATA/AppData/Config/Pydio",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/AppData/Pydio",
+          "bind": "/DATA/AppData/Pydio",
           "container": "/data"
         }
       ]
@@ -2892,11 +2892,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/qBittorrent",
+          "bind": "/DATA/AppData/Config/qBittorrent",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         }
       ]
@@ -2926,7 +2926,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Quassel-core",
+          "bind": "/DATA/AppData/Config/Quassel-core",
           "container": "/config"
         }
       ]
@@ -2956,15 +2956,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Radarr",
+          "bind": "/DATA/AppData/Config/Radarr",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/DATA/Movies",
           "container": "/movies"
         }
       ]
@@ -2982,7 +2982,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/ReactiveResume",
+          "bind": "/DATA/AppData/Config/ReactiveResume",
           "container": "/usr/src/app"
         }
       ]
@@ -3011,14 +3011,14 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Resilio-Sync",
+          "bind": "/DATA/AppData/Config/Resilio-Sync",
           "container": "/config"
         },
         {
           "container": "/sync"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         }
       ]
@@ -3048,11 +3048,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/ruTorrent",
+          "bind": "/DATA/AppData/Config/ruTorrent",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         }
       ]
@@ -3082,15 +3082,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Sabnzbd",
+          "bind": "/DATA/AppData/Config/Sabnzbd",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Downloads/incomplete",
+          "bind": "/DATA/Downloads/incomplete",
           "container": "/incomplete-downloads"
         }
       ]
@@ -3108,7 +3108,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Shiori",
+          "bind": "/DATA/AppData/Config/Shiori",
           "container": "/srv/shiori"
         }
       ]
@@ -3138,15 +3138,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/SickChill",
+          "bind": "/DATA/AppData/Config/SickChill",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/DATA/TV",
           "container": "/tv"
         }
       ]
@@ -3176,15 +3176,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/SickGear",
+          "bind": "/DATA/AppData/Config/SickGear",
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/DATA/TV",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         }
       ]
@@ -3214,11 +3214,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Smokeping",
+          "bind": "/DATA/AppData/Config/Smokeping",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/AppData/Smokeping",
+          "bind": "/DATA/AppData/Smokeping",
           "container": "/data"
         }
       ]
@@ -3237,7 +3237,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Snibox",
+          "bind": "/DATA/AppData/Config/Snibox",
           "container": "/app/db/database"
         }
       ]
@@ -3267,7 +3267,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Sonarr",
+          "bind": "/DATA/AppData/Config/Sonarr",
           "container": "/config"
         },
         {
@@ -3275,11 +3275,11 @@
           "container": "/dev/rtc"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/DATA/TV",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         }
       ]
@@ -3309,7 +3309,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Syncthing",
+          "bind": "/DATA/AppData/Config/Syncthing",
           "container": "/config"
         },
         {
@@ -3343,11 +3343,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Logs",
+          "bind": "/DATA/Logs",
           "container": "/logs"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Tautulli",
+          "bind": "/DATA/AppData/Config/Tautulli",
           "container": "/config"
         }
       ]
@@ -3377,7 +3377,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/TheLounge",
+          "bind": "/DATA/AppData/Config/TheLounge",
           "container": "/config"
         }
       ]
@@ -3395,7 +3395,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/TiddlyWiki",
+          "bind": "/DATA/AppData/Config/TiddlyWiki",
           "container": "/var/lib/tiddlywiki"
         }
       ]
@@ -3425,7 +3425,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/tt-rss",
+          "bind": "/DATA/AppData/Config/tt-rss",
           "container": "/config"
         }
       ]
@@ -3455,11 +3455,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Transmission",
+          "bind": "/DATA/AppData/Config/Transmission",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/downloads"
         },
         {
@@ -3514,7 +3514,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/DATA/Downloads",
           "container": "/data"
         },
         {
@@ -3548,7 +3548,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/TVHeadend",
+          "bind": "/DATA/AppData/Config/TVHeadend",
           "container": "/config"
         },
         {
@@ -3630,7 +3630,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Unifi",
+          "bind": "/DATA/AppData/Config/Unifi",
           "container": "/config"
         }
       ]
@@ -3678,11 +3678,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/WebGrabPlus",
+          "bind": "/DATA/AppData/Config/WebGrabPlus",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/AppData/WebGrabPlus",
+          "bind": "/DATA/AppData/WebGrabPlus",
           "container": "/data"
         }
       ]
@@ -3700,7 +3700,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Whoogle",
+          "bind": "/DATA/AppData/Config/Whoogle",
           "container": "/config"
         }
       ]
@@ -3718,11 +3718,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Wikijs",
+          "bind": "/DATA/AppData/Config/Wikijs",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Wikijs/data",
+          "bind": "/DATA/AppData/Config/Wikijs/data",
           "container": "/data"
         }
       ]
@@ -3762,7 +3762,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/UptimeKuma",
+          "bind": "/DATA/AppData/Config/UptimeKuma",
           "container": "/app/data"
         }
       ]
@@ -3798,7 +3798,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/monica",
+          "bind": "/DATA/AppData/Config/monica",
           "container": "/var/www/html/storage"
         }
       ]
@@ -3914,7 +3914,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Nodered",
+          "bind": "/DATA/AppData/Config/Nodered",
           "container": "/data"
         }
       ]
@@ -3931,7 +3931,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/changedetection",
+          "bind": "/DATA/AppData/Config/changedetection",
           "container": "/datastore"
         }
       ]
@@ -3949,11 +3949,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/revealjs/docs/slides",
+          "bind": "/DATA/AppData/Config/revealjs/docs/slides",
           "container": "/reveal/docs/slides"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/revealjs/scripts/test",
+          "bind": "/DATA/AppData/Config/revealjs/scripts/test",
           "container": "/resources"
         }
       ]
@@ -3971,7 +3971,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/statping",
+          "bind": "/DATA/AppData/Config/statping",
           "container": "/app"
         }
       ]
@@ -3989,7 +3989,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/nuts",
+          "bind": "/DATA/AppData/Config/nuts",
           "container": "/app"
         }
       ]
@@ -4049,7 +4049,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/WebTop",
+          "bind": "/DATA/AppData/Config/WebTop",
           "container": "/config"
         }
       ]
@@ -4252,23 +4252,23 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/YTDLM",
+          "bind": "/DATA/AppData/Config/YTDLM",
           "container": "/app/appdata"
         },
         {
-          "bind": "/portainer/Files/AppData/Youtube/Video",
+          "bind": "/DATA/AppData/Youtube/Video",
           "container": "/app/video"
         },
         {
-          "bind": "/portainer/Files/AppData/Youtube/Subscriptions",
+          "bind": "/DATA/AppData/Youtube/Subscriptions",
           "container": "/app/subscriptions"
         },
         {
-          "bind": "/portainer/Files/AppData/Youtube/Users",
+          "bind": "/DATA/AppData/Youtube/Users",
           "container": "/app/users"
         },
         {
-          "bind": "/portainer/Files/AppData/Youtube/Audio",
+          "bind": "/DATA/AppData/Youtube/Audio",
           "container": "/app/audio"
         }
       ]
@@ -4298,7 +4298,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/ZNC",
+          "bind": "/DATA/AppData/Config/ZNC",
           "container": "/config"
         }
       ]
